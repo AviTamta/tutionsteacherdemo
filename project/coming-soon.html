@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Soon — Tuitionsteacher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#152449;
+    --navy2:#1E3A5F;
+    --orange:#F5821F;
+    --gray:#6B7280;
+    --line:#E7EAF0;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:'Inter', sans-serif;
+    background:linear-gradient(180deg,#EEF3FC 0%, #FFFFFF 60%);
+    color:var(--navy);
+    min-height:100vh;
+    display:flex; flex-direction:column;
+  }
+  header{ padding:20px 32px; border-bottom:1px solid var(--line); background:#fff; }
+  .logo{ display:flex; align-items:center; gap:8px; font-family:'Poppins',sans-serif; font-size:17px; font-weight:600; color:var(--navy2); }
+  .logo-word b{ color:var(--navy); font-weight:700; }
+  .logo-word{ color:#3B5BDB; font-weight:600; }
+  main{
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:60px 24px;
+  }
+  .icon-wrap{
+    width:100px; height:100px; border-radius:50%;
+    background:#EDF2FC; display:flex; align-items:center; justify-content:center;
+    margin-bottom:28px; font-size:44px;
+  }
+  h1{ font-family:'Poppins',sans-serif; font-size:clamp(26px,4vw,38px); margin-bottom:14px; }
+  h1 span{ color:var(--orange); }
+  p{ color:var(--gray); font-size:15.5px; max-width:440px; margin-bottom:8px; }
+  .note{ font-size:13px; color:#9AA3B2; margin-top:6px; }
+  .btn{
+    display:inline-flex; margin-top:30px; padding:12px 26px; border-radius:8px;
+    background:var(--orange); color:#fff; font-weight:600; font-size:14.5px; text-decoration:none;
+  }
+  .btn:hover{ background:#E06D0C; }
+  footer{ text-align:center; padding:18px; font-size:12.5px; color:#9AA3B2; }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">
+    <img src="images/tuitionsteacher.png" alt="Tuitionsteacher" style="height:30px;width:auto;display:block;">
+  </a>
+</header>
+
+<main>
+  <div class="icon-wrap">🚧</div>
+  <h1>This page is <span>Coming Soon</span></h1>
+  <p>We're still building this part of Tuitionsteacher. Check back soon — we're working hard to get it ready for you.</p>
+  <p class="note">(Placeholder page — image/content to be added here.)</p>
+  <a href="index.html" class="btn">← Back to Home</a>
+</main>
+
+<footer>© 2026 Tuitionsteacher. All rights reserved.</footer>
+
+</body>
+</html>
